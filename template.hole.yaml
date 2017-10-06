@@ -1,0 +1,15 @@
+- outputs:
+  - [data/protein_radii.dat, radii]
+  - [data/protein_stat.dat,  stat]
+  - [data/protein_min.dat,   min]
+  inputs:
+  - frames/with_toxin/frame_[:1:].pdb
+  params:
+    radius file: /Projects/steven/install/HOLE/2.2.005/rad/simple.rad
+    direction: [0, 0, 1.0]
+    point: [0, 0, 0]
+    sample interval: 0.5
+    seed: 12345
+    max radius: 20
+    symmetric: false
+    parallel: 16

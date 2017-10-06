@@ -1,0 +1,74 @@
+- outputs:
+  - [1/protein_radii.dat, radii]
+  - [1/protein_stat.dat,  stat]
+  - [1/protein_min.dat,   min]
+  inputs:
+  - frames/with_toxin/frame_1.pdb
+  - frames/with_toxin/frame_2.pdb
+  - frames/with_toxin/frame_3.pdb
+  - frames/with_toxin/frame_4.pdb
+  - frames/with_toxin/frame_5.pdb
+  - frames/with_toxin/frame_6.pdb
+  - frames/with_toxin/frame_7.pdb
+  - frames/with_toxin/frame_8.pdb
+  - frames/with_toxin/frame_9.pdb
+  - frames/with_toxin/frame_10.pdb
+  params:
+    radius file: /Projects/steven/install/HOLE/2.2.005/rad/simple.rad
+    direction: [0, 0, 1.0]
+    point: [0, 0, 0]
+    sample interval: 0.5
+    seed: 12345
+    max radius: 20
+    symmetric: false
+    parallel: 16
+
+- outputs:
+  - [2/protein_radii.dat, radii]
+  - [2/protein_stat.dat,  stat]
+  - [2/protein_min.dat,   min]
+  inputs:
+  - frames/with_toxin/frame_1.pdb
+  - frames/with_toxin/frame_2.pdb
+  - frames/with_toxin/frame_3.pdb
+  - frames/with_toxin/frame_4.pdb
+  - frames/with_toxin/frame_5.pdb
+  - frames/with_toxin/frame_6.pdb
+  - frames/with_toxin/frame_7.pdb
+  - frames/with_toxin/frame_8.pdb
+  - frames/with_toxin/frame_9.pdb
+  - frames/with_toxin/frame_10.pdb
+  params:
+    radius file: /Projects/steven/install/HOLE/2.2.005/rad/simple.rad
+    direction: [0, 0, 1.0]
+    point: [0, 0, 0]
+    sample interval: 0.5
+    seed: 12345
+    max radius: 20
+    symmetric: false
+    parallel: 16
+
+- outputs:
+  - [3/protein_radii.dat, radii]
+  - [3/protein_stat.dat,  stat]
+  - [3/protein_min.dat,   min]
+  inputs:
+  - frames/with_toxin/frame_1.pdb
+  - frames/with_toxin/frame_2.pdb
+  - frames/with_toxin/frame_3.pdb
+  - frames/with_toxin/frame_4.pdb
+  - frames/with_toxin/frame_5.pdb
+  - frames/with_toxin/frame_6.pdb
+  - frames/with_toxin/frame_7.pdb
+  - frames/with_toxin/frame_8.pdb
+  - frames/with_toxin/frame_9.pdb
+  - frames/with_toxin/frame_10.pdb
+  params:
+    radius file: /Projects/steven/install/HOLE/2.2.005/rad/simple.rad
+    direction: [0, 0, 1.0]
+    point: [0, 0, 0]
+    sample interval: 0.5
+    seed: 12345
+    max radius: 20
+    symmetric: false
+    parallel: 16
